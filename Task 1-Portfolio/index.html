@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Your Name | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body{
+            background:#0f172a;
+            color:#ffffff;
+            line-height:1.6;
+        }
+
+        a{
+            text-decoration:none;
+            color:#38bdf8;
+        }
+
+        section{
+            padding:60px 10%;
+        }
+
+        h2{
+            font-size:32px;
+            margin-bottom:20px;
+            color:#38bdf8;
+        }
+
+        /* HEADER */
+        header{
+            background:linear-gradient(135deg,#0f172a,#1e293b);
+            padding:20px 10%;
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+            position:sticky;
+            top:0;
+        }
+
+        header h1{
+            font-size:24px;
+            color:#38bdf8;
+        }
+
+        nav a{
+            margin-left:20px;
+            font-weight:500;
+        }
+
+        nav a:hover{
+            color:#ffffff;
+        }
+
+        /* HERO */
+        .hero{
+            height:90vh;
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+        }
+
+        .hero h2{
+            font-size:48px;
+            margin-bottom:10px;
+        }
+
+        .hero p{
+            font-size:20px;
+            color:#cbd5e1;
+        }
+
+        /* ABOUT */
+        .about{
+            display:flex;
+            flex-wrap:wrap;
+            align-items:center;
+            gap:40px;
+        }
+
+        .about img{
+            width:250px;
+            border-radius:15px;
+        }
+
+        .about-text{
+            flex:1;
+        }
+
+        /* SKILLS */
+        .skills ul{
+            list-style:none;
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+            gap:15px;
+        }
+
+        .skills li{
+            background:#1e293b;
+            padding:15px;
+            border-radius:8px;
+            text-align:center;
+        }
+
+        /* PROJECTS */
+        .projects-container{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+        }
+
+        .project-card{
+            background:#1e293b;
+            padding:20px;
+            border-radius:10px;
+            transition:0.3s;
+        }
+
+        .project-card:hover{
+            transform:translateY(-5px);
+        }
+
+        .project-card img{
+            width:100%;
+            border-radius:10px;
+        }
+
+        /* RESUME */
+        .resume a{
+            display:inline-block;
+            background:#38bdf8;
+            color:#000;
+            padding:12px 20px;
+            border-radius:8px;
+            font-weight:600;
+        }
+
+        /* CONTACT */
+        .contact p{
+            margin:10px 0;
+        }
+
+        /* FOOTER */
+        footer{
+            text-align:center;
+            padding:20px;
+            background:#1e293b;
+            margin-top:40px;
+        }
+
+        @media(max-width:768px){
+            .about{
+                flex-direction:column;
+                text-align:center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>Your Name</h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#resume">Resume</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <h2>Hello, I'm Sujal Bhoite</h2>
+        <p>Web Developer | Designer | Problem Solver</p>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="about">
+            <img src="image.png" alt="Your Photo">
+            <div class="about-text">
+                <p>
+                    I am a passionate web developer with experience in building
+                    responsive and user-friendly websites using HTML, CSS, and JavaScript.
+                    I enjoy turning ideas into real-world applications.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Responsive Design</li>
+            <li>Git & GitHub</li>
+            <li>UI/UX Basics</li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <img src="project1.jpeg" alt="Project 1">
+                <h3>Restaurant Management System</h3>
+                <p>Resturant managment System used Mern Stack Technologies </p>
+            </div>
+
+            <div class="project-card">
+                <img src="project2.jpeg" alt="Project 2">
+                <h3>Online meeting Platform Zoom</h3>
+                <p>Used Various vedio optimizing tools</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME SECTION -->
+    <section id="resume" class="resume">
+        <h2>Resume</h2>
+        <a href="shivamresume.pdf" download>Download My Resume</a>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>Email: your.email@example.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2026 Your Name | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
