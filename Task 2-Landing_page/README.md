@@ -56,10 +56,9 @@ CODSOFT
 
 ## 🧑‍💻 Author
 
-**Name:** Tanmay Taware
-**Email:** [tanmaytaware2005@gmail.com](mailto:tanmaytaware2005@gmail.com)
+**Name:** Shivam Bhoite
+**Email:** [shivambhoite017@gmail.com)
 **Internship:** CODSOFT – Web Development
-
 ---
 
 ## 🏁 Conclusion
