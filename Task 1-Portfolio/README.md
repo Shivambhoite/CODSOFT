@@ -19,7 +19,7 @@ The portfolio showcases:
 • Resume download
 • Contact information
 
-It is built using **pure HTML, CSS, and JavaScript** with a modern UI and responsive design.
+It is built using **pure HTML AND CSS** with a modern UI and responsive design.
 
 ---
 
@@ -33,7 +33,7 @@ It is built using **pure HTML, CSS, and JavaScript** with a modern UI and respon
 ✔ Resume download button
 ✔ Contact form
 ✔ Scroll animations
-✔ Dark/Light mode toggle
+✔ Blue DARK/Light mode toggle
 ✔ Image carousel
 ✔ Mobile responsive design
 ✔ Clean and structured code
@@ -44,7 +44,6 @@ It is built using **pure HTML, CSS, and JavaScript** with a modern UI and respon
 
 • HTML5
 • CSS3
-• JavaScript
 • Visual Studio Code
 • Git & GitHub
 
@@ -56,7 +55,6 @@ It is built using **pure HTML, CSS, and JavaScript** with a modern UI and respon
 CODSOFT-PORTFOLIO
 │
 ├── index.html
-├── style.css
 └── README.md
 ```
 
@@ -64,8 +62,8 @@ CODSOFT-PORTFOLIO
 
 ## 🧑‍💻 Author
 
-**Name:** Tanmay Taware
-**Email:** [tanmaytaware2005@gmail.com](mailto:tanmaytaware2005@gmail.com)
+**Name:** Shivam Bhoite
+**Email:** [shivambhoite017@gmail.com)
 **Internship:** CODSOFT – Web Development
 
 ---
